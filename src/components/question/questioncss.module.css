@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.questions{
+ 
+  padding: 10%;
+
+}
+.questions h1{
+   
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.question{
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding:auto;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.2);
+}
