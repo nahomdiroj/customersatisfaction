@@ -24,7 +24,7 @@ const Question = ({question}) => {
     const [value, setValue] = React.useState(2);
     const [hover, setHover] = React.useState(-1);
   return (
-    <div className={classes.question}>
+    <div className={`${classes.question}`}>
         
         <h3>{question}</h3>
         <Box
@@ -40,6 +40,7 @@ const Question = ({question}) => {
             name="hover-feedback"
             value={value}
             precision={1}
+            size='large'
             getLabelText={getLabelText}
             onChange={(event, newValue) => {
             setValue(newValue);

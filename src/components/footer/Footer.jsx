@@ -4,8 +4,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="container my-5">
-      <footer style={{ backgroundColor: '#ffede7' }}>
+    <div className="container my-5 w-100">
+      <footer style={{ backgroundColor: '#f1ab15',width:"100%"}}>
         <div className="container p-4">
           <div className="row">
             <div className="col-lg-3 col-md-6 mb-4">

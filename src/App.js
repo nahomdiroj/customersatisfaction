@@ -1,14 +1,14 @@
 
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/footer/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './components/header/Header';
 import Questions from './components/question/Questions';
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App container-fluid">
+      <Header/>
       <Questions/>
-      <Footer/>
+
     </div>
   );
 }
